@@ -15,4 +15,37 @@
 	font-size : 30px;
 }
 
+aside p
+{
+	background-color:gray;
+	width:50%;
+	height:120px;
+	min-width:300px;
+	max-width:500px;
+}
 
+p
+{
+	border:1px solid black;
+	width:350 px;
+	text-align: justify;
+	margin:auto;
+	margin-bottom:30px;
+	overflow:auto;
+	word-wrap: break-word;
+}
+
+nav
+{
+	margin-top:20px;
+	width:150px;
+	float:left;
+	/* border:1px solid black; */
+	
+}
+
+section
+{
+	/* border:1px solid blue; */
+	margin-left:170px;
+}

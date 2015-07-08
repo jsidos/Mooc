@@ -1,0 +1,75 @@
+/*ceci est le commentaire de mon css*/
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegularDashed';
+    src: url('LearningCurveDashed_OT-webfont.eot');
+    src: url('LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('LearningCurveDashed_OT-webfont.svg#LearningCurveProRegularDashed') format('svg');
+}
+
+h1, h2 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size : 40px;
+	}
+
+p,li /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size : 30px;
+	}
+
+
+body
+{
+ 	background: url("photos/fond.jpg") no-repeat fixed ;
+}
+
+.titre , .poste
+{
+    color: gray;
+	font-size: 4em;
+	text-align: center;
+}
+
+.photo
+{
+	float:right;
+	/* border: 5px black solid; */
+	/* border-radius : 5px; */
+}
+
+em
+{
+	text-shadow : 5px 5px 20px white;
+	font-size: 40px;
+}
+
+.enphase
+{
+	color: red;
+	font-style:oblique;
+}
+
+a:hover
+{
+	color:green;
+	text-decoration:underline;
+}
+
+a:visited
+{
+	color:grey;
+}
+

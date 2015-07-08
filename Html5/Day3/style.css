@@ -37,15 +37,21 @@ p
 
 nav
 {
-	margin-top:20px;
 	width:150px;
-	float:left;
 	/* border:1px solid black; */
-	
+	display:inline-block;
+	vertical-align:top;
 }
 
 section
 {
 	/* border:1px solid blue; */
-	margin-left:170px;
+	/* margin-left:170px; */
+	display:inline-block;
+	vertical-align:top;
 }
+
+/* h1, p
+{
+	display:inline;
+} */

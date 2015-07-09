@@ -2,16 +2,94 @@
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'LearningCurveProRegular';
-    src: url('LearningCurve_OT-webfont.eot');
-    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('LearningCurve_OT-webfont.woff') format('woff'),
-         url('LearningCurve_OT-webfont.ttf') format('truetype'),
-         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    src: url('polices/LearningCurve_OT-webfont.eot');
+    src: url('polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/LearningCurve_OT-webfont.woff') format('woff'),
+         url('polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('polices/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegularDashed';
+    src: url('LearningCurveDashed_OT-webfont.eot');
+    src: url('LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('LearningCurveDashed_OT-webfont.svg#LearningCurveProRegularDashed') format('svg');
 }
 
 * /* Utilisation de la police qu'on vient de définir sur les titres */
 {
-    font-family: 'LearningCurveProRegular', Arial, serif;
+    }
+
+/* elements principaux */
+
+body
+{
+	background: url('images/fond.png');
+	font-family: 'LearningCurveProRegular', Arial, serif;
 	font-size : 30px;
+	color:#181818;
 }
 
+header
+{
+	background:url('images/barreseparation.png') repeat-x bottom;
+}
+
+#blocprincipal
+{
+	width:900px;
+	margin:auto;
+}
+
+section h1, footer h1, nav above
+{
+	font-family:'LearningCurveProRegularDashed', Arial, serif;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+#titreprincipal
+ {
+	display:inline-block;
+}
+
+#logo, header h1
+ {
+	display:inline-block;
+	margin-bottom:0px;
+}
+
+header h2
+{
+	margin-top:0px;
+}
+
+nav
+{
+	display:inline-block;
+	width:740px;
+	text-align:right;
+}
+
+nav ul
+{
+	list-style-type:none;
+}
+
+nav li
+{
+	display:inline-block;
+	margin-right:15px;
+}
+
+#banniere_image
+{
+	margin-top:15px;
+	height:200px;
+	background:url('images/cohesion.jpg') no-repeat center;
+	border-radius:5px;
+	position:relative;
+	box-shadow:0px 4px 4px #1c1a19;
+}

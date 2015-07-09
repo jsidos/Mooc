@@ -1,0 +1,17 @@
+/*ceci est le commentaire de mon css*/
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+* /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	font-size : 30px;
+}
+

@@ -2,20 +2,20 @@
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'LearningCurveProRegular';
-    src: url('LearningCurve_OT-webfont.eot');
-    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('LearningCurve_OT-webfont.woff') format('woff'),
-         url('LearningCurve_OT-webfont.ttf') format('truetype'),
-         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    src: url('polices/LearningCurve_OT-webfont.eot');
+    src: url('polices/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/LearningCurve_OT-webfont.woff') format('woff'),
+         url('polices/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('polices/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
 }
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'LearningCurveProRegularDashed';
-    src: url('LearningCurveDashed_OT-webfont.eot');
-    src: url('LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
-         url('LearningCurveDashed_OT-webfont.woff') format('woff'),
-         url('LearningCurveDashed_OT-webfont.ttf') format('truetype'),
-         url('LearningCurveDashed_OT-webfont.svg#LearningCurveProRegularDashed') format('svg');
+    src: url('polices/LearningCurveDashed_OT-webfont.eot');
+    src: url('polices/LearningCurveDashed_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('polices/LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('polices/LearningCurveDashed_OT-webfont.svg#LearningCurveProRegularDashed') format('svg');
 }
 
 h1, h2 /* Utilisation de la police qu'on vient de définir sur les titres */
@@ -28,8 +28,7 @@ p,li /* Utilisation de la police qu'on vient de définir sur les titres */
 {
     font-family: 'LearningCurveProRegular', Arial, serif;
 	font-size : 30px;
-	}
-
+		}
 
 body
 {
@@ -46,8 +45,8 @@ body
 .photo
 {
 	float:right;
-	/* border: 5px black solid; */
-	/* border-radius : 5px; */
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
 }
 
 em

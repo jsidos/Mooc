@@ -6,40 +6,11 @@
 		<title>Mon Site Web</title> 
 	</head>
 	<body>
-		<table>
-			<caption>Titre du tableau</caption>
+		<form method="post" action = "traitement.php">
+			<p><label for="pseudo">Votre pseudo</label><input type="text" name="pseudo" id="pseudo" size="25" maxlength ="20" placeholder="Ex. jojo"/></p>
+			<p><label for="pass">Votre pwd</label><input type="password" name="pass" id="pass" size="25" maxlength ="20" placeholder="Ex. pass"/></p>
+			<p><label for="commentaire">Vos commentaires</label><textarea name="commentaire" id="commentaire">Par Défaut</textarea></p>
 			
-			<thead>
-				<tr>
-					<th>entete1</th>
-					<th>entete2</th>
-					<th>entete3</th>
-				</tr>
-			</thead>
-			
-			<tfoot>
-				<tr>
-					<th>foot1</th>
-					<th>foot2</th>
-					<th>foot3</th>
-				</tr>
-			</tfoot>
-		
-			<tbody>
-				<tr>
-					<td>toto</td>
-					<td>titi</td>
-					<td>tata</td>
-				</tr>
-				<tr>
-					<td rowspan="2">tuto</td>
-					<td>tuta</td>
-					<td>tyty</td>
-				</tr>
-				<tr>
-					<td colspan="2">toti</td>
-				</tr>
-			</tbody>
-		</table>
+		</form>
 	</body>
 </html>

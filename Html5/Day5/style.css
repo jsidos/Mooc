@@ -7,3 +7,9 @@ td, th
 {
 	border:1px solid black;
 }
+
+#commentaire
+{
+	width:250px;
+	height:200px;
+}
